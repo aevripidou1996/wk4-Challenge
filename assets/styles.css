@@ -51,6 +51,58 @@ align-items: center;
 .Quiz-box #question{
     font-size: 1.8rem;
     font-weight: 600;
-    color: orangered;
-    border: 1px solid grey;
+    color: black;
+    border: 1px 0;
+    padding: 5px 0;
+}
+
+.buttons{
+    margin: 1.5rem 0 4rem 0;
+}
+
+.btn{
+    text-align: left;
+    background-color: white;
+    width: 100%;
+    font-size: 1.5rem;
+    color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 1rem;
+    outline: none;
+
+}
+
+.btn:hover{
+  cursor: pointer;  
+  background-color: green;
+  color: aliceblue;
+}
+
+#score {
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.quiz-repeat{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.quiz-repeat a{
+   font-size: 1.6rem;
+   font-weight: 600;
+   color: aliceblue;
+   text-decoration: none; 
+   background-color: orangered;
+   padding: 1rem;
+   border-radius: 5px;
+   transition: all .3s;
+}
+
+.quiz-repeat a:hover {
+    background-color: purple;
 }
